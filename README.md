@@ -68,7 +68,7 @@ Y= A⊕B
 5.Check all the gates following the same procedure.
 
 ## Program:
-/*
+
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 
 Developed by:Dhanumalya D
@@ -99,7 +99,6 @@ xnor(y7,a,b);
 endmodule
 
 
-*/
 ## Logic symbol & Truthtable
 
 Logic symbol
@@ -114,7 +113,7 @@ TRUTH TABLE
 ## RTL Viewer
 ![RTL](https://user-images.githubusercontent.com/119218812/226114281-59e5bda6-e104-4c3c-9e18-dba602c01637.png)
 
-## Netlist Viewer
+## RUN SIMULATION
 ![Timing](https://user-images.githubusercontent.com/119218812/226114293-2f3da6be-3d89-4b58-9beb-2efb59bf3ba1.png)
 
 ## Result:
