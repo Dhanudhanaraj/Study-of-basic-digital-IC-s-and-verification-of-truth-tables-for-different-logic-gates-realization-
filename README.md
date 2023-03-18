@@ -1,12 +1,15 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- AIM:
+## AIM:
+
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipments Required:
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
-Theory
+
+## Theory
 Introduction
+
 Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate
@@ -16,6 +19,7 @@ NAND gate
 NOR gate
 Ex-OR gate
 Ex-NOR gate
+
 1) AND gate
 The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
 
@@ -51,26 +55,49 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-Procedure
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
-If the output is 1, then the bulb glows.
-Check all the gates following the same procedure.
-Program:
+## Procedure
+
+1.Connect the supply (+5V) to the circuit
+2.Switch ON the main switch
+3.Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
+4.If the output is 1, then the bulb glows.
+5.Check all the gates following the same procedure.
+
+## Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:Dhanumalya D 
+RegisterNumber:212222230030  
+
+module de1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor(y7,a,b);
+endmodule
+
 */
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL Viewer
+## Logic symbol & Truthtable
+
+Logic symbol
+![logic symbol](https://user-images.githubusercontent.com/119218812/226115038-0531e4d6-0bfc-4bdc-b60e-20970c92d23f.png)
+
+TRUTH TABLE
+![TT1](https://user-images.githubusercontent.com/119218812/226115104-51a00edf-2736-4232-b30d-ff668929990b.png)
+
+
+## Output:
+
+## RTL Viewer
 ![RTL](https://user-images.githubusercontent.com/119218812/226114281-59e5bda6-e104-4c3c-9e18-dba602c01637.png)
 
-Netlist Viewer
+## Netlist Viewer
 ![Timing](https://user-images.githubusercontent.com/119218812/226114293-2f3da6be-3d89-4b58-9beb-2efb59bf3ba1.png)
 
-Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
