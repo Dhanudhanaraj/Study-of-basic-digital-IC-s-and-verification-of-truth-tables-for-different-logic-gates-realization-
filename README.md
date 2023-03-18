@@ -66,7 +66,11 @@ RegisterNumber:
 Logic symbol & Truthtable
 RTL realization
 Output:
-RTL
+RTL Viewer
+![RTL](https://user-images.githubusercontent.com/119218812/226114281-59e5bda6-e104-4c3c-9e18-dba602c01637.png)
+
+Netlist Viewer
+![Timing](https://user-images.githubusercontent.com/119218812/226114293-2f3da6be-3d89-4b58-9beb-2efb59bf3ba1.png)
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
